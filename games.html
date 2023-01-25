@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindera Games</title>
+    <link rel="stylesheet" href="games.css" type="text/css" />
+</head>
+<body>
+<header>
+    <h1>EDGAR TASK</h1>
+    <marquee style="position: absolute;" direction="left" scrollamount="50"> <img src="images/sonicGif.gif" alt="Sonic"></marquee>
+    <marquee style="position: absolute;" direction="right" scrollamount="30">  <img src="images/marioNoBackground.gif" alt="sonic"></marquee>
+    <marquee style="position: relative;" direction="right" scrollamount="40">  <img src="images/pickachu.gif" alt="sonic"></marquee>
+
+   
+</header>
+
+<main>
+
+<section>
+    <form>
+        <label for="Name">Name:</label> <br>
+        <input type="text" id="fname" name="fname"> <br><br>
+        <label for="Number">Number:</label> <br>
+        <input type="number" id="fname" name="fname"> <br><br>
+        <label for="Number">Gender:</label>
+        <input type="radio" name="gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="Female">
+        <label for="Male">Female</label><br><br>
+        <label for="Email">Email:</label> <br><br>
+        <input type="email" id="email" name="Email"> <br><br>
+        <label for="Hobbies">Hobbies:</label>
+        <input class="checkmark" type="checkbox" name="Music">
+        <label class="content" for="music">Music</label>
+        <input class="checkmark" type="checkbox" name="motorcycle" checked>
+        <label class="content" for="motorcycle">Motorcycle</label>
+        <input class="checkmark" type="checkbox" name="running">
+        <label class="content" for="running">Running</label>
+        <input class="checkmark" type="checkbox" name="Swimming" disabled>
+        <label class="content" for="swimming">Swimming</label><br><br>
+        <label for="age">Age:</label> <span id="ageJS">18</span>
+        <input id="rangeJS" type="range" name="age" id="Age" min="18" max="99" value="18">
+<br>
+<br>
+<br>
+        <button>ENVIAR</button>
+        </form>
+</section>
+
+
+</main>
+
+</body>
+<script src="games.js"></script>
+
+</html>
